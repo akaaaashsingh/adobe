@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  padding: 5%;
+}
+html #cart,
+body #cart {
+  padding: 5%;
+}
+html #cart .btn-order,
+body #cart .btn-order {
+  padding: 1%;
+  margin-top: 2%;
+  width: 40%;
+  background-color: lawngreen;
+  border: none;
+  outline-style: none;
+  cursor: pointer;
+}
+html .row,
+body .row {
+  display: flex;
+  justify-content: space-evenly;
+}
+html .row .col,
+body .row .col {
+  border: solid 1px lightgray;
+  padding: 2%;
+  text-align: center;
+}
+html .row .col .display-text,
+body .row .col .display-text {
+  text-decoration: line-through;
+  color: red;
+  opacity: 0.5;
+}
+html .row .col .add-to-cart,
+body .row .col .add-to-cart {
+  background-color: lawngreen;
+  padding: 2%;
+  text-decoration: none;
+}
+html .show-cart li,
+body .show-cart li {
+  display: flex;
+  padding: 2%;
+}
+html .card,
+body .card {
+  margin-bottom: 20px;
+}
+html .card-img-top,
+body .card-img-top {
+  width: 200px;
+  height: 200px;
+  align-self: center;
+}
+
+/*# sourceMappingURL=style.css.map */
